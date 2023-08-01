@@ -1,0 +1,34 @@
+.trends-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+
+    img {
+        padding: 2%;
+        width: 100%;
+        height: 15%;
+        border-radius: 8px;
+    }
+
+    div {
+        margin-top: 4%;
+        font-size: 0.8em;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+@media(min-width:768px) {
+    .trends-card-container {
+        width: 25%;
+    }
+}
+
+@media(min-width:1024px) {
+
+    .trends-card-container {
+        width: 15%;
+
+    }
+}

@@ -1,0 +1,29 @@
+.logo-container {
+    display: flex;
+    flex-direction: row-reverse;
+
+    img {
+        padding: 5% 2%;
+        width: 15%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .logo-container {
+        img {
+            padding: 0.5% 2%;
+            width: 10%;
+        }
+    }
+
+}
+
+@media (min-width : 1024px) {
+    .logo-container {
+        img {
+            padding: .5% 2%;
+            width: 8%;
+        }
+    }
+}
